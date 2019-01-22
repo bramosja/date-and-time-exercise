@@ -20,7 +20,7 @@ let DomBuilder = () => {
 
     // add event listener that refreshes the DOM when button is clicked
     newDateButton.addEventListener("click", function() {
-        container.textContent = " "
+        container.textContent = " ";
         DomBuilder();
     })
 }
